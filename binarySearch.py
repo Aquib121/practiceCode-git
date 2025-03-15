@@ -13,8 +13,10 @@ def binarySearch(nums,target):
             r = mid - 1
         else:
             l = mid + 1
-    return -1
+    return -1 # if number is not found.
 
 nums = [1,4,5,7,8,9,12,34,65]
 target = 9
 main(nums, target)
+
+
